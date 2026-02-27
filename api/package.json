@@ -1,0 +1,21 @@
+{
+  "name": "awesome-claude-skills-api",
+  "version": "1.0.0",
+  "description": "REST API for browsing curated Claude Skills for Senior FullStack JS / Node / React / AWS developers and Content Creators",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test src/**/*.test.js"
+  },
+  "keywords": ["claude", "skills", "api", "nodejs"],
+  "author": "",
+  "license": "Apache-2.0",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0"
+  }
+}
